@@ -45,8 +45,4 @@ def post_item(name: str, price: float , offer: bool):
     item_post = requests.post(url, json = new_item, timeout=5)
     return item_post.json()
 
-    
-
-
-
 
